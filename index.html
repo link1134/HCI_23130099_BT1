@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .header {
+            
+            background-image: linear-gradient(0, rgb(0 255 20), rgb(195 208 196));
+            height: 100px;
+
+        }
+
+        .item {
+            margin: 20px;
+            font-size: 30px;
+            list-style: none;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        .h1 {
+            display: flex;
+            font-size: 40px;
+            align-items: center;
+            justify-content: space-around;
+            font-weight: bold;
+            font-style: italic;
+            color: #312c2c;
+        }
+
+        .list {
+            padding-left: 0;
+            margin: 0 auto;
+            justify-content: center;
+            display: flex;
+
+        }
+
+        .grid {
+            width: 900px;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        .container {
+            background-color: #ffffff;
+            
+            flex: 1;
+        }
+
+        .footer {
+            background-image: linear-gradient(0, rgb(195 208 196), rgb(0 255 20));
+            height: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="h1">My Website</h1>
+        <div class="grid">
+            <ul class="list">
+                <a href="index.html" class="item">Home</a>
+                <a href="cv.html" class="item">About</a>
+                <a href="Labs.html" class="item">Lab</a>
+
+            </ul>
+        </div>
+    </header>
+    
+    <div class="container">
+
+    </div>
+
+    <footer class="footer">
+
+    </footer>
+</body>
+
+</html>
