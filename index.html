@@ -19,19 +19,22 @@
         }
 
         .header {
-
-            background-image: linear-gradient(0, rgb(0 255 20), rgb(195 208 196));
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            background-image: linear-gradient(0, rgb(255, 170, 0), rgb(0, 153, 255));
             height: 100px;
 
         }
 
         .item {
-            margin: 20px;
+            margin: 0 20px;
             font-size: 30px;
             list-style: none;
             display: inline-block;
             text-decoration: none;
         }
+        
 
         .h1 {
             display: flex;
@@ -41,6 +44,7 @@
             font-weight: bold;
             font-style: italic;
             color: #312c2c;
+            flex: 1;
         }
 
         .list {
@@ -64,7 +68,7 @@
         }
 
         .footer {
-            background-image: linear-gradient(0, rgb(195 208 196), rgb(0 255 20));
+            background-color: rgb(229, 179, 77);
             height: 80px;
             justify-content: center;
             display: flex;
@@ -82,7 +86,6 @@
                 <a href="index.html" class="item">Home</a>
                 <a href="cv.html" class="item">About</a>
                 <a href="Labs.html" class="item">Lab</a>
-
             </ul>
         </div>
     </header>
